@@ -30,6 +30,12 @@
         justify-content: space-between;
         text-align: left;
     }
+<<<<<<< HEAD
+=======
+    @media all and (min-width: 1200px) {
+        justify-content: space-evenly;
+    }
+>>>>>>> footer
 }
 .footer__tips--list, .footer__sm--list {
     list-style: none;
@@ -44,10 +50,14 @@
 }
 .footer__tips {
     margin: 60px 0 30px;
+<<<<<<< HEAD
     @media all and (min-width: 768px) {
         margin: 45px 0 45px;
         order: 1;
     }
+=======
+   
+>>>>>>> footer
 }
 .footer__sm {
     @media all and (min-width: 768px) {
