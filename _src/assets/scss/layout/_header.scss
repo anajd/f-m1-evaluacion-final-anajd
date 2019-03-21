@@ -1,10 +1,13 @@
+/*Background-hero*/
 .hero {
-    background-image: url("../images/cover.jpg");
+    background: center / cover no-repeat url("../images/cover.jpg");
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/*Menu top-left*/
 .hero__menu {
     position: fixed;
     top: 0;
@@ -17,6 +20,8 @@
     justify-content: center;
     align-items: center;
 }
+
+/*Text*/
 .hero__text {
     color: #ffffff;
     display: flex;
@@ -29,7 +34,6 @@
     margin: 0 15px;
     font-family: 'Roboto Slab', serif;
     font-size: 42px;
-    font-weight: normal;
     line-height: 55px;
     text-transform: uppercase;
 }
@@ -39,6 +43,8 @@
     font-size: 16px;
     font-weight: normal;
 }
+
+/*Icon scroll*/
 .hero__text--scroll {
     margin: 45px 0 0 0;
     min-width: 45px;
@@ -51,5 +57,5 @@
     transform: translate(0,50%);
 }
 .hero__text--icon {
-    transform: translate(0,25%);
+    transform: translate(4%,22%);
 }
