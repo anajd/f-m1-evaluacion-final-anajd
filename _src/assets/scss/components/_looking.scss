@@ -1,5 +1,10 @@
+/*MAIN*/
+/*Looking container*/
 .looking {
     margin: 30px 15px 45px 15px;
+    @media all and (min-width: 768px){
+        margin: 30px 40px 60px 40px;
+    }
 }
 .looking-a__tips {
     font-family: 'Roboto', sans-serif;
@@ -14,6 +19,9 @@
     font-weight: normal;
     text-transform: capitalize;
     line-height: 30px;
+    @media all and (min-width: 768px){
+        font-size: 26px;
+    }
 }
 .looking-a__description {
     margin: 15px 0 30px 0;
@@ -22,6 +30,10 @@
     font-weight: normal;
     color: #4a4a4a;
     line-height: 30px;
+    @media all and (min-width: 768px){
+        font-size: 20px;
+        margin: 30px 0 30px 0;
+    }
 }
 .looking-a__button {
     width: 76px;
@@ -33,4 +45,7 @@
     font-size: 20px;
     text-transform: capitalize;
     color: #f26002;
+    @media all and (min-width: 768px){
+        width: 91px;
+    }   
 }
