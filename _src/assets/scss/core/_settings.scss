@@ -1,1 +1,8 @@
-$color-white: #f3f4f5;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page {
+    position: relative;
+}

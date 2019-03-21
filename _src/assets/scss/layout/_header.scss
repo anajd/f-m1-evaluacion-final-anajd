@@ -1,0 +1,55 @@
+.hero {
+    background-image: url("../images/cover.jpg");
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 44px;
+    height: 44px;
+    background-color: #0271bc;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero__text {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 284px 0 0 0;
+}
+.hero__text--title {
+    margin: 0 15px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+.hero__text--claim {
+    padding: 10px 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.hero__text--scroll {
+    margin: 45px 0 0 0;
+    min-width: 45px;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0,50%);
+}
+.hero__text--icon {
+    transform: translate(0,25%);
+}
