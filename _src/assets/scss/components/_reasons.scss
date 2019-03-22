@@ -80,6 +80,14 @@
     border-radius: 22.5px;
     border: 0;
     grid-rows: 3 / 4;
+    transition: background-color ease 0.3s;
+    &:hover {
+        box-sizing: border-box;
+        background-color: #eff9ff;
+        color: #f26002;
+        border: 2px #f26002 solid;
+        text-transform: uppercase;
+      }
 }
 
 @media all and (min-width: 768px){
