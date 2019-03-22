@@ -1,3 +1,5 @@
+/*MAIN*/
+/*Reasons container*/
 .reasons {
     background-color: #eff9ff;
     display: grid;
@@ -15,6 +17,8 @@
         padding: 60px 80px;
     }
 }
+
+/*Text*/
 .reasons__title {
     grid-rows: 1 / 2;
     font-family: 'Roboto Slab', serif;
@@ -67,6 +71,8 @@
         grid-rows: 1 / 2;
     }
 }
+
+/*Button*/
 .reason__button--img {
     grid-rows: 5 / 6;
     font-family: 'Roboto', sans-serif;
@@ -89,7 +95,6 @@
         text-transform: uppercase;
       }
 }
-
 @media all and (min-width: 768px){
     .reason__button {
         grid-column: 1 / 4;

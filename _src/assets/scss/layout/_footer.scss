@@ -1,5 +1,5 @@
 /*FOOTER*/
-
+/*Footer container*/
 .page__footer {
     background-color: #304268;
     display: flex;
@@ -8,6 +8,8 @@
     text-align: center;
     position: relative;
 }
+
+/*Icon scroll*/
 .footer__arrow {
     background-color: #ffffff;
     width: 45px;
@@ -18,11 +20,11 @@
     align-items: center;
     position: absolute;
     top: -22.5px;
-    animation-name: shadow;
+    animation-name: mov;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    @keyframes shadow {
+    @keyframes shadow-mov {
         0% {
             top: -22.5;
         }
@@ -38,6 +40,8 @@
     position: absolute;
     transform: translate(-10.8px, -11px)
 }
+
+/*Text*/
 .footer__text {
     @media all and (min-width: 768px) {
         width: 100vw;
@@ -84,6 +88,8 @@
         order: 0;
     }
 }
+
+/*Heart*/
 .fas {
     color: #f26002;
     font-size: 10px;
