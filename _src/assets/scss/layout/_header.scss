@@ -70,8 +70,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     transform: translate(0,50%);
 }
+.hero__scroll-down {
+    transform: translateX(-50%) rotate(90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 .hero__text--icon {
     transform: translate(-1%,22%);
 }
