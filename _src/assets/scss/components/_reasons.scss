@@ -73,30 +73,12 @@
 }
 
 /*Button*/
-.reason__button--img {
-    grid-rows: 5 / 6;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-    color: #ffffff;
-    line-height: 45px;
-    width: 184px;
-    height: 45px;
-    background-color: #f26002;
-    border-radius: 22.5px;
-    border: 0;
-    grid-rows: 3 / 4;
-    transition: background-color ease 0.3s;
-    &:hover {
-        box-sizing: border-box;
-        background-color: #eff9ff;
-        color: #f26002;
-        border: 2px #f26002 solid;
-        text-transform: uppercase;
-      }
+.reason__button {
+    margin-top: 20px;
 }
 @media all and (min-width: 768px){
     .reason__button {
+        margin-top: 0;
         grid-column: 1 / 4;
         grid-rows: 3 / 4;
 }

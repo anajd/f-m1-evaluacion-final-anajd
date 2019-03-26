@@ -24,6 +24,7 @@
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    display: none;
     @keyframes mov {
         0% {
             top: -22.5;
@@ -34,6 +35,9 @@
         100% {
             top: -22.5px;
         }
+    }
+    @media all and (min-width: 768px) {
+        display: flex;
     }
 }
 .footer__arrow--icon {
@@ -83,6 +87,8 @@
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 30px;
+    display: flex;
+    flex-direction: column-reverse;
     @media all and (min-width: 768px) {
         margin: 45px 0 45px;
         order: 0;
